@@ -31,7 +31,7 @@ This project is a portfolio website designed to showcase the work and achievemen
 
 ## Preview
 
-You can view the live demo of this project by visiting [Cynthia Ugwu Portfolio Demo](#) (replace this with the actual URL if available).
+You can view the live demo of this project by visiting [Cynthia Ugwu Portfolio Demo](https://hirendhola.github.io/clone-cynthiaugwu/)
 
 ## Installation
 
