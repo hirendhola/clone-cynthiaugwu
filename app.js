@@ -9,20 +9,36 @@ function firstpageAnim(){
     tl.from("#nav",{
         y: '-10',
         opacity: 0,
-        duration:1.5,
+        duration:1,
         ease: Expo.easeInOut
     })
-    tl.from(".bounding",{
+    tl.from(".bounding-1",{
         y: '100',
-        duration:1.5,
+        opacity:0,
+        duration:1,
         ease: Expo.easeInOut
     })
-    tl.to(".bounding",{
+    tl.to(".bounding-1",{
         y: '0',
-        duration:2,
+        duration:1,
+        opacity:1,
         ease: Expo.easeInOut,
-        stagger: .01
     })
+    tl.from(".bounding-2",{
+        y: '100',
+        opacity:0,
+        duration:1,
+        ease: Expo.easeInOut
+    })
+    tl.to(".bounding-1",{
+        y: '0',
+        duration:1,
+        opacity:1,
+        ease: Expo.easeInOut,
+    })
+     .from(".mainpage_footer",{
+        
+     })
 }
 
 function circleMouseFollower(){

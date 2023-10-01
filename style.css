@@ -53,11 +53,15 @@ nav a{
     font-family: "General Sans";
     font-size: 10vw;
     text-transform: uppercase;
+    overflow: hidden;
     font-weight: 1000;
     opacity: .7;
     line-height: .9;
     margin-left: 2.1484375vw;
     letter-spacing: .3vw;
+}
+.heading h1 div{
+    overflow: hidden;
 }
 br{
     line-height: 3px;
